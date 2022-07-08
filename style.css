@@ -1,0 +1,202 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+    flex: 1;
+    background-color: #1F2937;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*This part works on the top hearder only*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 16px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    gap: 24px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB
+}
+
+/*This part works on the second "box" */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 52px;
+    gap: 52px;
+}
+
+.img{
+    width: 500px;
+    height: auto;
+}
+
+.left{
+    max-width: 450px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+    max-width: 380px;
+}
+
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 28px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Third Box Starts Here!*/
+
+.info{
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.link-img{
+    height: auto;
+    width: 160px;
+    border-radius: 12px !important;
+    overflow:hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.item{
+    max-width: 160px;
+    text-align: center;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+}
+
+/*Here is the fourth box!*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
+    padding: 90px;
+    align-items: center;
+}
+
+.running-quote{
+    max-width: 900px;
+    font-style: italic;
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.name{
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+/* The fifth box! Almost there! */
+.fifth{
+    background-color: white;
+}
+
+.action{
+    background-color: #3882f6;
+    margin: 82px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 12px;
+    border-radius: 12px;
+    gap: 36px;
+}
+
+.text{
+    max-width: 500px;
+    color:white;
+}
+
+.sign-up-title{
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.sign-up-info{
+    font-size: 16px;
+}
+
+.button-sign{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    padding: 8px 36px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* The final part, the footer */
+
+.footer{
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    padding: 24px;
+}
